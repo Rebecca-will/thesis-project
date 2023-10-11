@@ -47,7 +47,7 @@ myclusGapcols <- clusGap(scaled_data,
 
                          K.max = 15,
 
-                         B = 5)
+                         B = 500)
 #output:15
 
 # #signature clusters = 2
