@@ -93,6 +93,8 @@ cutclhc <- cutree(HR_col, k = kcols)
 cutclcolhc <-my_colors[1:kcols]
 cutclcolhc <- cutclcolhc[as.vector(cutclhc)]
 
+#Saving this vector to be used in other scripts
+write.table(cutclcolhc, file = "cutclcolhc.txt", col.names = FALSE, row.names = FALSE)
 
 #disease 
 diseasecolors = my_colors 
